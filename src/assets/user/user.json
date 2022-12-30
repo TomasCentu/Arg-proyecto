@@ -1,0 +1,123 @@
+{
+  "usuario" : {
+    "datos" : {
+      "nombre" : "Tomas Fernando Centurion",
+      "cargo" : "Desarrollador Full Stack Jr",
+      "foto" : "../../../assets/fotoPerfil.jpg",
+      "sobremi" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates molestias veniam magni recusandae, fugiat sit nesciunt itaque id! Voluptatum error quis ab numquam aut porro nihil. Enim deleniti c"
+    },
+    "redes" : {
+      "github": "https://github.com/TomasCentu",
+      "linkedin": "https://www.linkedin.com/in/tomascenturion/"
+    },
+    "estudios" : [
+      {
+        "nombre": "Universidad de San Martin",
+        "descripcion": "Tecnicatura en Programación informatica",
+        "foto": "../../../assets/fotoPerfil.jpg"
+      },
+      {
+        "nombre": "Universidad de San Martin",
+        "descripcion": "Tecnicatura en Programación informatica",
+        "foto": "../../../assets/fotoPerfil.jpg"
+      },
+      {
+        "nombre": "Universidad de San Martin",
+        "descripcion": "Tecnicatura en Programación informatica",
+        "foto": "../../../assets/fotoPerfil.jpg"
+      },
+      {
+        "nombre": "Universidad de San Martin",
+        "descripcion": "Tecnicatura en Programación informatica",
+        "foto": "../../../assets/fotoPerfil.jpg"
+      },
+      {
+        "nombre": "Universidad de San Martin",
+        "descripcion": "Tecnicatura en Programación informatica",
+        "foto": "../../../assets/fotoPerfil.jpg"
+      }
+    ],
+    "experiencias" : [
+      {
+        "nombre": "Universidad de San Martin",
+        "descripcion": "Tecnicatura en Programación informatica",
+        "foto": "../../../assets/fotoPerfil.jpg"
+      },
+      {
+        "nombre": "Universidad de San Martin",
+        "descripcion": "Tecnicatura en Programación informatica",
+        "foto": "../../../assets/fotoPerfil.jpg"
+      },
+      {
+        "nombre": "Universidad de San Martin",
+        "descripcion": "Tecnicatura en Programación informatica",
+        "foto": "../../../assets/fotoPerfil.jpg"
+      },
+      {
+        "nombre": "Universidad de San Martin",
+        "descripcion": "Tecnicatura en Programación informatica",
+        "foto": "../../../assets/fotoPerfil.jpg"
+      },
+      {
+        "nombre": "Universidad de San Martin",
+        "descripcion": "Tecnicatura en Programación informatica",
+        "foto": "../../../assets/fotoPerfil.jpg"
+      }
+    ],
+    "habilidades": {
+      "hardSkills": [
+        {"nombre": "HTML", "porcentaje": 75},
+        {"nombre": "CSS", "porcentaje": 80},
+        {"nombre": "JavaScript", "porcentaje": 65},
+        {"nombre": "JAVA", "porcentaje": 70},
+        {"nombre": "Python", "porcentaje": 50},
+        {"nombre": "MySQL", "porcentaje": 65},
+        {"nombre": "React", "porcentaje": 60},
+        {"nombre": "Angular", "porcentaje": 80}
+      ],
+      "softSkills": [
+        {"nombre": "Cooperador", "porcentaje": 75},
+        {"nombre": "Decidido", "porcentaje": 80},
+        {"nombre": "Comunicación", "porcentaje": 65},
+        {"nombre": "Trabajador", "porcentaje": 70}
+      ]
+    },
+    "proyectos" : [
+      {
+        "nombre": "Universidad de San Martin",
+        "descripcion": "Tecnicatura en Programación informatica",
+        "foto": "../../../assets/fotoPerfil.jpg",
+        "demo": "#",
+        "repo": "#"
+      },
+      {
+        "nombre": "Universidad de San Martin",
+        "descripcion": "Tecnicatura en Programación informatica",
+        "foto": "../../../assets/fotoPerfil.jpg",
+        "demo": "#",
+        "repo": "#"
+      },
+      {
+        "nombre": "Universidad de San Martin",
+        "descripcion": "Tecnicatura en Programación informatica",
+        "foto": "../../../assets/fotoPerfil.jpg",
+        "demo": "#",
+        "repo": "#"
+      },
+      {
+        "nombre": "Universidad de San Martin",
+        "descripcion": "Tecnicatura en Programación informatica",
+        "foto": "../../../assets/fotoPerfil.jpg",
+        "demo": "#",
+        "repo": "#"
+      },
+      {
+        "nombre": "Universidad de San Martin",
+        "descripcion": "Tecnicatura en Programación informatica",
+        "foto": "../../../assets/fotoPerfil.jpg",
+        "demo": "#",
+        "repo": "#"
+      }
+    ]
+  }
+}

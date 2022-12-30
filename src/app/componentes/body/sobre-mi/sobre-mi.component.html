@@ -1,0 +1,27 @@
+<div class="conteiner-fuid">
+  <div class="row">
+    <img
+      src={{misDatos.usuario.datos.foto}}
+      alt="img-usuario"
+      class="img-usuario col-sm-3 col-md-3"
+    >
+
+    <div class="datos-usuario col-sm-8 col-md-4">
+      <h2 class="nombre">{{misDatos.usuario.datos.nombre}}</h2>
+      <p class="cargo">{{misDatos.usuario.datos.cargo}}</p>
+    </div>
+
+    <div class="sobre-mi col-12 row">
+      <p class="title-sobre col-xs-12 col-lg-3">Sobre Mí</p>
+
+      <textarea
+        name="sobre-mi" id="sobreMi" cols="15" rows="7"
+        placeholder="detalles sobre mi"
+        readonly class="texto-sobremi col-xs-12 col-lg-8"
+        >
+        {{misDatos.usuario.datos.sobremi}}
+      </textarea>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,90 @@
+div.conteiner-fuid
+  div.row
+    img.img-usuario
+      width: 175px
+      height: 150px
+      padding: 0
+      border-radius: 100%
+      margin: -5rem 0 0 2rem
+      border: 5px solid #FFF
+
+    div.datos-usuario
+      h2.nombre
+        font-size: 1.5rem
+        margin-bottom: .25rem
+      p.cargo
+        font-size: .8rem
+        margin: 0 0 0 .75rem
+        font-style: italic
+
+        &::before
+          content: '~ '
+
+    div.sobre-mi
+      width: 100%
+      display: flex
+      align-items: center
+      justify-content: center
+      gap: 1rem
+      margin: 3rem 0 1.5rem
+
+      p.title-sobre
+        font-size: 2rem
+        font-weight: 200
+        border-bottom: 1px solid #CCC
+        text-align: center
+
+        &::after
+          content: ' :'
+
+      textarea.texto-sobremi
+        resize: none
+        outline: none
+        border: none
+        user-select: none
+        cursor: default
+        padding: .7rem
+        color: #fff
+        background-color: #0d6efd
+        border-radius: 60px 10px 60px 10px
+        font-size: .8rem
+
+@media (max-width: 637px)
+  div.conteiner-fuid
+    div.row
+      justify-content: center
+      div.datos-usuario
+        text-align: center
+        h2.nombre
+          font-size: .9rem
+        p.cargo
+          font-size: .8rem
+      div.sobre-mi
+        width: 90%
+
+@media (max-width: 420px)
+  div.conteiner-fuid
+    div.row
+      img.img-usuario
+        margin: -5rem 25% 0
+        width: 150px
+
+      div.datos-usuario
+        text-align: center
+        h2.nombre
+          font-size: 1rem
+        p.cargo
+          font-size: .9rem
+
+      div.sobre-mi
+        width: 100%
+        gap: 1rem
+        text-align: center
+        margin: 1rem 0
+
+        p.title-sobre
+          font-size: 1.5rem
+
+        textarea.texto-sobremi
+          width: 90%
+          font-size: .8rem

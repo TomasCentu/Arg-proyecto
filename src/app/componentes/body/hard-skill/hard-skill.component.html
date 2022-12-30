@@ -1,0 +1,31 @@
+<h4 class="title-skill">Hard-Skills</h4>
+
+<ul class="skill-conteiner">
+  <li *ngFor="let skill of hard">
+    <div class="progress">
+      <div
+        class="progress-bar bg-{{randomColor()}} progress-bar-striped"
+        role="progressbar" aria-label="Default striped"
+        attr.aria-valuenow= "{{skill.porcentaje}}" aria-valuemin="0" aria-valuemax="100"
+        attr.style="width: {{skill.porcentaje}}%;">
+        {{skill.nombre}} ~ {{skill.porcentaje}}%
+      </div>
+    </div>
+  </li>
+</ul>
+
+<h4 class="title-skill">Soft-Skills</h4>
+
+<ul class="skill-conteiner">
+  <li *ngFor="let skill of soft">
+    <div class="progress">
+      <div
+        class="progress-bar bg-{{randomColor()}} progress-bar-striped"
+        role="progressbar" aria-label="Default striped"
+        attr.aria-valuenow= "{{skill.porcentaje}}" aria-valuemin="0" aria-valuemax="100"
+        attr.style="width: {{skill.porcentaje}}%;">
+        {{skill.nombre}} ~ {{skill.porcentaje}}%
+      </div>
+    </div>
+  </li>
+</ul>

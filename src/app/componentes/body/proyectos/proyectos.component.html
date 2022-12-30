@@ -1,0 +1,29 @@
+<ul>
+  <li class="contenedor col-lg-6 col-xs-12" *ngFor="let item of proyecto">
+    <div class="exp-card">
+      <div class="row">
+        <img
+          src={{item.foto}}
+          alt="img-proyecto-demo"
+          class="exp-img col-5"
+        >
+
+        <div class="datos-exp col-7">
+          <h4 class="title">
+            <i class="fa-solid fa-laptop-file"></i>
+            {{item.nombre}}
+          </h4>
+          <p class="descripcion proyecto">
+            {{item.descripcion}}
+          </p>
+
+          <div class="button-conteiner d-flex">
+            <a href={{item.demo}} class="btn btn-primary">DEMO</a>
+            <a href={{item.repo}} class="btn btn-outline-primary">REPOSITORIO</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
+</ul>
+

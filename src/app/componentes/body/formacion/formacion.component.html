@@ -1,0 +1,22 @@
+<ul>
+  <li class="contenedor col-lg-6 col-xs-12" *ngFor="let estudios of misEstudios">
+    <div class="exp-card">
+      <div class="row">
+        <img
+          src={{estudios.foto}}
+          alt="img-experiencia"
+          class="exp-img col-5"
+        >
+
+        <div class="datos-exp col-7">
+          <h4 class="title">
+            <i class="fa-solid fa-graduation-cap"></i>
+            {{estudios.nombre}}
+            <span class="second-title">En curso</span>
+          </h4>
+          <p class="descripcion">{{estudios.descripcion}}</p>
+        </div>
+      </div>
+    </div>
+  </li>
+</ul>

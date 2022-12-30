@@ -1,0 +1,21 @@
+<ul>
+  <li class="contenedor col-lg-6 col-xs-12" *ngFor="let item of misExp">
+    <div class="exp-card">
+      <div class="row">
+        <img src={{item.foto}} alt="img-experiencia"
+          class="exp-img col-5"
+        >
+
+        <div class="datos-exp col-7">
+          <h4 class="title">
+            <i class="fa-solid fa-list-ol"></i>
+            {{item.nombre}}
+          </h4>
+          <p class="descripcion">
+            {{item.descripcion}}
+          </p>
+        </div>
+      </div>
+    </div>
+  </li>
+</ul>

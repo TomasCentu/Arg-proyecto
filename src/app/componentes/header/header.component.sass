@@ -1,0 +1,63 @@
+div.header-conteiner
+  nav.navbar
+    div.container-fluid
+      a.navbar-brand
+        padding: 0
+        display: flex
+        align-items: center
+
+        img.img-logo
+          width: 45px
+          height: 35px
+
+        div.texto
+          p.img-logo-texto
+            font-size: .6rem
+            color: #FFF
+            margin: 0 0 0 .5rem
+            padding: 0
+            font-weight: bold
+            letter-spacing: 2px
+
+      div.d-flex
+        gap: 1rem
+        align-items: center
+
+        a
+          color: #FFF
+
+          i.logo-redes
+            font-size: 1.5rem
+
+  div.banner-conteiner
+    img.banner
+      width: 100%
+      max-height: 50vh
+      background-position: center
+      background-size: cover
+
+
+@media (max-width: 576px)
+  div.header-conteiner
+    nav.navbar
+      div.container-fluid
+        a.navbar-brand
+          img.img-logo
+            width: 25px
+            height: 15px
+
+          div.texto
+            p.img-logo-texto
+              font-size: .4rem
+
+        div.d-flex
+          a
+            i.logo-redes
+              font-size: 1.25rem
+
+          button.btn
+            font-size: .8rem
+
+    div.banner-conteiner
+      img.banner
+        max-height: 60vh
